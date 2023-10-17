@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@600&display=swap');
+
+body {
+
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%; 
+}
+
+
+a {
+    text-decoration: none;
+    padding: 0 0 0 50px; 
+}
+
+a:hover,
+a.selected {
+    color: #46F953;
+    
+}
+
+img {
+    max-width: 100%;
+    max-height: 300px;
+}
+
+section {
+    margin: 80px 0 80px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    color: #002994;
+
+    /*display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+    grid-auto-flow: dense;*/
+}
+
+
+
+
+
+.art_titles {
+    background-color: aqua;
+    text-align: center;
+}
+
+
+main {
+    font-family: 'Syne', sans-serif;
+    font-size: 20;
+    color: #002994;
+    text-align: center;
+    margin-top: 5%;
+    width: 1124px; 
+    margin: auto; 
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.headnav { 
+    font-family: 'Syne', sans-serif;
+    font-size: 40;
+    color: #002994;
+    text-align: center;
+    margin-top: 5%;
+    padding: 15px;
+
+}
+
+.headnav a {
+    color: #002994;
+
+}
+
+
+
+a:hover,
+a.selected {
+    color: #46F953;
+    
+}
+
+.logo {
+    position: absolute;
+    top: 0%; 
+    left: 0%; 
+    z-index: 5;
+}
+
+.art_right {
+ grid-column: 6 / span 3 ;
+}
+
+
+.art_center {
+grid-column: 4 / span 3;
+}
+
+.art_left {
+    text-align: center;
+}
+
+.art_left h2 {
+    text-align: center;
+}
+
+
+.footer {
+    font-family: 'Syne', sans-serif;
+    font-size: 100;
+    color: #002994;
+    text-align: center;
+    margin-top: 5%;
+    
+}
+
+.footer_home {
+    font-family: 'Syne', sans-serif;
+    font-size: 100;
+    color: #002994;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 25px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.833);
+    
+}
+
+.footer_home a {
+    color: #002994;
+}
+
+.bodyworks {
+    align-items: center;
+    justify-content: center;
+}
+
+
+.poster {
+    text-align: center;
+}
+
+#home {
+    background-image: url(../img/index2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+#home_logo {
+    margin: auto;
+    height: 750px; 
+}
+
+.aboutpur {
+    margin-left: 75%;
+}
+
+.workpur {
+    margin-left: 75%;
+}
+.posterpur {
+    margin-left: 75%;
+}
+.tattoopur {
+    margin-left: 75%;
+}
+.bosdiditpur {
+    margin-left: 75%;
+}
+.squarepur {
+    margin-left: 75%;
+}
+
+.iconspur {
+    margin-left: 75%;
+}
+
+.contactpur {
+    margin-left: 75%;
+}

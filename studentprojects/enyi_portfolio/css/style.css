@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton&family=Playfair+Display&display=swap');
+
+
+body { 
+    font-family:'Playfair Display'serif ;
+    background-color:#F2DCC9 ;
+    font-family: Playfair;
+    color: black;
+        font-family: 'Neuton';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line: height 10px;
+        margin:auto;
+     
+}
+/* Index Page */
+header {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    margin: 0 0 0 32px;
+}
+a:hover,
+a.selected{
+    color:#D7987D;
+    border: bottom 2px solid #D7987D;  
+}
+
+nav, 
+h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 53px;
+    display: flex;
+    align-items: center; 
+}
+
+h2{
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    margin: auto;
+}
+
+
+
+section{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-column-gap:24px;
+    grid-auto-flow: dense; 
+
+}
+
+footer {
+    
+    background-color: #D7987D;
+    display:flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content:center;
+}
+
+a:hover,
+a.footer {
+    margin: 0 0 0 32px;
+    color:#5D6073 ;
+}
+
+#tagline{
+    background-color: #A9C6D9 ;
+    grid-column: 4/span 7;
+    text-align: center;
+    border-radius: 88px;
+
+    
+}
+
+
+.artwork{
+    grid-column:1/ span 4;
+    margin: 5px;
+}
+
+.description{
+    grid-column: 6/ span 6;
+}
+
+.artwork_alt{
+    grid-column: 7/span 5;
+}
+
+.description_alt{
+    grid-column:1/ span 6;
+}
+
+
+#titlep{
+    grid-column: 7/span 5;
+}
+
+#icons{
+    display:flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content:center;
+}
+
+#ac_book_one{
+    grid-column:2/ span 4;
+}
+
+#ac_book_two{
+    grid-column:8/ span 4;
+}
+
+
+/* About Page */
+#introduction{
+    grid-column:5/ span 7; 
+ 
+}
+
+#bio_pic{
+    grid-column: 2/span 4 ;
+}
+
+
+#bio{
+    grid-column: 7/ span 4;
+    text-align: center;
+}
+
+/* Contact Page */
+#connect{
+    grid-column: 6/ span 3;
+}
+
+#contacts{
+    grid-column: 2/ span 9; 
+    text-align: center;
+}
+
+input,textarea{
+    background-color: #F2DCC9;
+    border: 3px solid #BFB2AA ;
+    color:black;
+    font-size: 25px;
+    padding: 8px 16px 8px 16px;
+    width:100%;
+    
+}
+
+lable{
+    display: block;
+    margin: 16px 0 16px 0;
+}
+
+textarea{
+    height:320px;
+}
+
+button{
+    background-color: #BFB2AA;
+    border: none;
+    font-size:'Playfair Display'serif; 
+    padding:8px 16px 8px 16px
+}
+
+Input:foucus,textarea:focus{
+    border: 2px soild;
+}
+/* Profolio_1 Page */
+.description_p{
+    grid-column: 3/ span 8;
+
+}
+/* Profolio_2 Page */
+
+.artwork_center{
+    grid-column:4/span 6 ;
+}
+
+.description_end{
+    grid-column: 2/ span 10;
+    text-align: center;
+}
+/* Profolio_3 Page */
+.header{
+    grid-column: 1/span 12 ;
+}
+
+.description_end{
+    grid-column: 3/ span 9; 
+}
+
+.image_mar{
+    margin: 5px;
+
+}

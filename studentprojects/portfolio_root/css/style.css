@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('font/Inter-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'ExtraBold';
+    src: url(font/Inter-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'SemiBold';
+    src: url(font/Inter-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Medium';
+    src: url(font/Inter-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Light';
+    src: url(font/Inter-Light.ttf);
+}
+
+body{
+    font-family: 'Inter';
+    color: rgb(10, 10, 10);
+    margin: 0px auto 0px auto;
+    width: 100%;
+
+    }
+    
+header{
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:  0px 325px 0px 0px;
+
+    }
+    
+nav{
+        font-family: 'Inter';
+        font-size: 0.12in;
+        background-color: beige;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 12px;
+        width: 70%;
+    
+    }
+    
+main{
+        background-color: beige;
+        padding: 00.1px;
+
+    }
+    
+footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        width: 50%;
+        align-items: center;
+        padding: 20px 0px 10px 400px;
+
+    }
+
+.alvinlogo{
+        padding: 10px;
+
+    }
+    
+a :hover{
+        color: goldenrod;
+
+    }
+    
+nav p:hover{
+        text-decoration: none;
+
+    }
+    
+a{
+        text-decoration: none;
+        color: black;
+
+    }
+    
+.textbox{
+        font-family: 'ExtraBold';
+        font-size: 0.6in;
+        color: white;
+        text-align: center;
+
+    }
+    
+.minibox{
+        font-family: 'SemiBold';
+        font-size: 0.23in;
+        color: rgb(60, 84, 169);
+    
+    }
+    
+.mainbox{
+    padding: 0.1px;
+    background-color: black;
+
+    }
+
+h2{
+    font-family: 'ExtraBold';
+    font-size: 0.4in;
+
+}
+
+h3{
+    font-family: 'Medium';
+    font-size:medium;
+}
+
+.planetgif{
+    background-color:black;
+    text-align: center;
+
+}
+
+.bio{
+    text-align: center;
+    font-size: 0.25in;
+    padding: 10px;
+
+}
+
+input, textarea{
+    background-color: white ;
+    border: none;
+    width: 100%;
+    padding: 5px 20px 5px 20px;
+}
+
+label{
+    display: block;
+    margin: 20px 0px 20px 0px;
+}
+
+textarea{
+    height:260px;
+}
+
+button{
+    background-color: white;
+    border: none;
+    font-family: 'SemiBold';
+    font-size: 0.15in;
+    padding: 8px 20px 8px 20px;
+
+}
+
+.padding{
+    padding: 0px 300px 150px 300px;
+}
+
+.connect{
+    text-align: center;
+    font-family: 'ExtraBold';
+    font-size: 1.2in;
+}
+.rows{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 10px 0 0 0;
+
+}
+
+section{
+    margin: 10px 150px 0 150px;
+
+}
+
+.year{
+    font-size: medium;
+    font-family: 'Medium';
+
+}
+
+button:hover{
+background-color: goldenrod;
+color: beige;
+}

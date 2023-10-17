@@ -1,0 +1,1563 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@300;400;500;600;700&display=swap');
+
+#bodyindex{
+    background-color: #F2EFEC;
+}
+
+body{
+    background-color: #F2EFEC; 
+}
+
+/*header*/
+
+header{
+    background-color: #8CABB7;
+    width: 100%;
+    height: 65px;
+    margin-left: 0%;
+    padding: 1%; 
+    position: sticky;
+    top: 0;
+    z-index: 6;
+}
+
+#maf{
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+#game h3{
+    height: 100%; 
+    color: #8CABB7;
+}
+
+#game {
+    margin-left: 43%;
+    margin-right: 40%;
+}
+
+#game h3:hover{
+    color: #244244;
+    text-decoration: none;
+}
+
+#home{
+    float: right;
+    margin-right: 3%;
+    height: 100%;
+}
+
+#homehome h3{
+    float: right;
+    margin-right: 3%;
+    height: 100%;
+    color: #244244;
+}
+
+#home h3:hover{
+    color: #244244;
+    text-decoration: none;
+}
+
+#about{
+    float: right;
+    margin-right: 3%;
+    height: 100%;
+}
+
+#aboutabout h3{
+    float: right;
+    margin-right: 3%;
+    height: 100%;
+    color: #244244;
+}
+
+#about h3:hover{
+    color: #244244;
+    text-decoration: none;
+}
+
+#mywork{
+    float: right;
+    margin-right: 3%;
+    height: 100%
+}
+
+#myworkmuwork h3{
+    float: right;
+    margin-right: 3%;
+    height: 100%;
+    color: #244244;
+}
+
+#mywork h3:hover{
+    color: #244244;
+    text-decoration: none;
+}
+
+#contact{
+    float: right;
+    margin-right: 5%;
+    height: 100%  
+}
+
+#contactcontact h3{
+    float: right;
+    margin-right: 3%;
+    height: 100%;
+    color: #244244;
+}
+
+#contact h3:hover{
+    color: #244244;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h3{
+    font-family: 'Kreon', serif;
+    color: #F2EFEC;
+    font-size: 20px;
+    margin-right: 1%;
+}
+
+#gif{
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+
+/*end of header*/
+
+#srollingabout:hover{
+    width: 100%;
+    height: 100%;
+    animation-name: whitetoviolet;
+    animation-duration: 1s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;
+}
+
+@keyframes whitetoviolet {
+    0%{
+        background-color: #F2EFEC;
+    }
+
+    100%{
+        background-color: #B78CB0;
+    }
+}
+
+#splashtitle{
+    text-align: center;
+    font-family: 'Kreon', serif;
+    font-size: 15pt;
+    color: #244244;
+    margin-left: 7.5%;
+    margin-right: 8%;
+    margin: 1%;
+}
+
+#homeabouttitle{
+    padding-bottom: 25%;
+}
+
+#homeabouttitle h3{
+    text-align: center;
+    margin-top: 150px;
+    padding-top: 5%;
+    font-family: 'Kreon', serif;
+    font-size: 25pt;
+    color: #F2EFEC
+}
+
+#homeaboutpic{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#homeabouttext{
+    text-align: center;
+    font-family: 'Kreon', serif;
+    margin-top: 0px;
+    font-size: 25px;
+    color: #F2EFEC;
+    padding-bottom: 0.5%;
+    width: 30%;
+    margin-left: 34.5%;
+    margin-right: 80%;
+}
+
+#learnmore{
+    text-align: center;
+    font-family: 'Kreon', serif;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #F2EFEC;
+    padding-bottom: 3%;
+}
+
+#learnmore p{
+    color: #F2EFEC;   
+}
+
+#learnmore p:hover{
+    color: #244244;
+    text-decoration: none;
+}
+
+#instagram{
+    float: left;
+    margin-left: 32%;
+    height: 100%;
+}
+
+#instagram h3:hover{
+    color: #B78CB0;
+    text-decoration: none;
+}
+
+#linkedIn{
+    float: left;
+    margin-left: 10%;
+    height: 100%;
+}
+
+#linkedIn h3:hover{
+    color: #B78CB0;
+    text-decoration: none;
+}
+
+#email{
+    float: left;
+    margin-left: 10%;
+    height: 100%;
+}
+
+#email h3:hover{
+    color: #B78CB0;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #244244;
+    width: 100%;
+    height: 60px;
+    margin-top: 0%;
+    margin-left: 0%;
+    padding: 1%;
+    padding-top: 0%;  
+}
+
+#bodylayout h3{
+    font-family: 'Kreon', serif;
+    margin-top: 30px;
+    font-size: 25px;
+    color: #B78CB0; 
+    text-align: center;
+}
+
+#bodylayout a h3{
+    font-family: 'Kreon', serif;
+    margin-top: 30px;
+    font-size: 25px;
+    color: #B78CB0; 
+    text-align: center;
+}
+
+#bodylayout a:hover{
+    text-decoration: underline;
+    color: #B78CB0;
+}
+
+#bodylayoutalt h3{
+    font-family: 'Kreon', serif;
+    margin-top: 30px;
+    font-size: 25px;
+    color: #B78CB0; 
+    text-align: center;
+}
+
+#bodylayoutalt a h3{
+    font-family: 'Kreon', serif;
+    margin-top: 30px;
+    font-size: 25px;
+    color: #B78CB0; 
+    text-align: center;
+}
+
+#bodylayoutalt a:hover{
+    text-decoration: underline;
+    color: #B78CB0;
+}
+
+#homework h3{
+    font-family: 'Kreon', serif;
+    margin-top: 30px;
+    font-size: 25px;
+    color: #B78CB0; 
+    text-align: center;
+}
+
+/*about page*/
+
+#bgabout{
+    background-color: #F2EFEC;
+}
+
+#aboutlayout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#aboutfirsthalf{
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+#abouttitle{
+    text-align: center;
+    padding-top: 3%;
+}
+
+#abouttitle h3{
+    font-family: 'Kreon', serif;
+    font-size: 22pt;
+    color: #244244;
+}
+
+#aboutpic{
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+#fadeinimages:hover{
+    animation-name: fadeIn;
+}
+
+#bgscrollabout:hover{
+    width: 100%;
+    height: 100%;
+    animation-name: whitetoviolet;
+    animation-duration: 3s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;
+}
+
+#bgscrollabout{
+    margin: 6.6%;
+    text-align: center;
+}
+
+#bgscrollabout p{
+    margin-top: 7%;
+    margin-bottom: 7%;
+    color: #F2EFEC;
+}
+
+
+@keyframes violettowhite {
+    0%{
+        background-color: #B78CB0;
+    }
+
+    100%{
+        background-color: #F2EFEC;
+    }
+}
+
+#bgscrollabout p{
+    text-align: center;
+    font-family: 'Kreon', serif;
+    font-size: 22px;
+    color: #F2EFEC;
+    padding-top: 7%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 7%;
+    width: 50%;
+}
+
+/*beginning of slides*/
+
+.containerattempt{
+    width: 14.75%;
+    position: absolute;
+    overflow: hidden;
+    transform: translate(-50%,-50%);
+    top: 47%;
+    left: 49.5%;
+    box-sizing: 10px 25px 30px;
+    border-radius: 3px;
+    margin-top: 40%;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 6s infinite;
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+
+}
+/*end of slides*/
+
+/*end of about page*/  
+
+/*my work page*/
+
+#myworkpage h3{
+    font-family: 'Kreon', serif;
+    font-size: 22pt;
+    color: #244244;
+    text-align: center;
+    margin-bottom: 20%;
+    margin-top: 20%;
+}
+
+#myworkpage{
+    padding: 5%;
+}
+
+#myworkpage:hover{
+    animation-name:whitetoviolet;
+    animation-duration: 2s;
+    animation-iteration-count: 1; 
+    text-align: center;
+    animation-fill-mode: forwards;
+}
+
+/*beginning of slider*/
+
+#slidersflexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-left: 5%;
+}
+
+#bodylayout{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.slider{
+    overflow: hidden;
+    position: relative;
+    width: 24%;
+    margin-left: 50%;
+}
+
+.images{
+    display: flex;
+    width: 60%;
+}
+
+.images img{
+    height: 100%;
+    width: 300px;
+    transition: all 0.15s ease;
+}
+
+.images input{
+    display: none;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+    margin-top: 1%;
+}
+
+.dots label{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: solid #244244 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5%;
+}
+
+.dots label:hover{
+    background-color: #244244;
+}
+
+#img1:checked ~ .m1{
+    margin-left: 0;
+}
+
+#img2:checked ~ .m2{
+    margin-left: -176%;
+    background-color: #F2EFEC
+}
+
+#img3:checked ~ .m3{
+    margin-left: -355%;
+    background-color: #F2EFEC
+}
+
+#img4:checked ~ .m4{
+    margin-left: -525%;
+}
+
+/*end of slider*/
+
+/*begining of sliders alt*/
+
+#bodylayoutalt {
+    height: 100%;
+    display: flex;
+    margin-top: 5%;
+}
+
+.slideralt{
+    overflow: hidden;
+    position: relative;
+    width: 24%;
+}
+
+.imagesalt{
+    display: flex;
+    width: 60%;
+}
+
+.imagesalt img{
+    height: 100%;
+    width: 300px;
+    transition: all 0.15s ease;
+}
+
+.imagesalt input{
+    display: none;
+}
+
+.dotsalt {
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
+
+.dotsalt label{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: solid #244244 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5%;
+}
+
+.m6{
+    background-color: #F2EFEC;
+    margin-top: 7%; 
+    height: 100%; 
+}
+
+.m6{
+    background-color: #F2EFEC;
+    margin-top: 7%; 
+}
+
+.dotsalt label:hover{
+    background-color: #244244;
+}
+
+#img5:checked ~ .m5{
+    margin-left: 0;
+}
+
+#img6:checked ~ .m6{
+    margin-left: -180%;
+    background-color: #F2EFEC;
+}
+
+#img7:checked ~ .m7{
+    margin-left: -355%;
+    background-color: #F2EFEC;
+}
+
+#img8:checked ~ .m8{
+    margin-left: -525%;
+}
+
+/*end of slider alt*/
+
+#earlywork h3{
+    text-align: center;
+    font-family:'Kreon', serif;
+    color: #244244;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+#latework h3{
+    text-align: center;
+    font-family:'Kreon', serif;
+    color: #244244;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+/*start of dichotomy slides*/
+
+#bodylayoutdichotomy{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    margin-top: 3%;
+}
+
+.sliderdichotomy{
+    overflow: hidden;
+    position: relative;
+    width: 17%;
+}
+
+.imagesdichotomy{
+    display: flex;
+    width: 70%;
+}
+
+.imagesdichotomy img{
+    height: 100%;
+    width: 300px;
+    transition: all 0.15s ease;
+}
+
+.imagesdichotomy input{
+    display: none;
+}
+
+.dotsdichotomy {
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+    margin-top: 1%;
+}
+
+.dotsdichotomy label{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: solid #244244 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5%;
+}
+
+.dotsdichotomy label:hover{
+    background-color: #244244;
+}
+
+.m9{
+    background-color: #F2EFEC;
+    margin-top: 7%; 
+    height: 100%; 
+}
+
+.m12{
+    background-color: #F2EFEC;
+    margin-top: 7%; 
+    height: 100%; 
+}
+
+#img9:checked ~ .m9{
+    margin-left: 0;
+}
+
+#img10:checked ~ .m10{
+    margin-left: -165%;
+    background-color: #F2EFEC
+}
+
+#img11:checked ~ .m11{
+    margin-left: -320%;
+    background-color: #F2EFEC
+}
+
+#img12:checked ~ .m12{
+    margin-left: -475%;
+}
+
+/*start of fade hover effect*/
+
+#awardwinningads{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+
+#fadehovereffect1{
+    margin-left: 3.75%;
+    margin-top: 1%;
+}
+
+.containerhovereffect{
+    height: 100%;
+    display: flex;
+}
+
+.containerhovereffect .box{
+    position: relative;
+    width: 450px;
+    height: 650px;
+    background: url(../img/advertising/adv1.png) no-repeat;
+    background-size: cover;
+    font-family:'Kreon', serif;
+    color: #F2EFEC;
+    font-size: 15pt;
+    text-align: right;
+}
+
+.containerhovereffect .box h1{
+    width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.containerhovereffect .box .overlay{
+    position: absolute;
+    background: #B78CB0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .7s ease-in;
+}
+
+.containerhovereffect .box .overlay p{
+    text-align: center;
+    margin: 20px 30px;
+    font-size: 15pt;
+    width: 100%;
+}
+
+.containerhovereffect .two .overlay p{
+    text-align: center;
+    margin: 20px 30px;
+    font-size: 20pt;
+    width: 100%;
+}
+
+.containerhovereffect .one .overlay{
+    height: 0%;
+    bottom: 0;
+}
+
+.containerhovereffect .one:hover .overlay{
+    height: 100%;
+    top: 0;
+}
+
+/*start of alt*/
+
+.containerhovereffectalt{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fadehovereffect2{
+    margin-left: 1%;
+}
+
+.containerhovereffectalt .boxalt{
+    position: relative;
+    width: 450px;
+    height: 650px;
+    background: url(../img/advertising/ad2.png) no-repeat;
+    background-size: cover;
+    font-family:'Kreon', serif;
+    color: #F2EFEC;
+    font-size: 15pt;
+    text-align: center;
+}
+
+.containerhovereffectalt .boxalt h1{
+    width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.containerhovereffectalt .boxalt .overlayalt{
+    position: absolute;
+    background: #B78CB0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .7s ease-in;
+}
+
+.containerhovereffect .boxalt .overlayalt p{
+    text-align: center;
+    margin: 20px 30px;
+    font-size: 15pt;
+    width: 100%;
+}
+
+.containerhovereffectalt .one .overlayalt{
+    height: 0%;
+    bottom: 0;
+}
+
+.containerhovereffectalt .one:hover .overlayalt{
+    height: 100%;
+    top: 0;
+}
+
+/*end of alt*/
+
+/*start of 3*/
+.containerhovereffect3{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fadehovereffect3{
+    margin: 1%;
+}
+
+.containerhovereffect3 .box3{
+    position: relative;
+    width: 450px;
+    height: 650px;
+    background: url(../img/advertising/ad3.png) no-repeat;
+    background-size: cover;
+    font-family:'Kreon', serif;
+    color: #F2EFEC;
+    font-size: 15pt;
+    text-align: center;
+}
+
+.containerhovereffect3 .box3 h1{
+    width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.containerhovereffect3 .box3 .overlay3{
+    position: absolute;
+    background: #B78CB0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .7s ease-in;
+}
+
+.containerhovereffect3 .box3 .overlay3 p{
+    text-align: center;
+    margin: 20px 30px;
+    font-size: 15pt;
+    width: 100%;
+}
+
+.containerhovereffect3 .one .overlay3{
+    height: 0%;
+    bottom: 0;
+}
+
+.containerhovereffect3 .one:hover .overlay3{
+    height: 100%;
+    top: 0;
+}
+
+/*end of 3*/
+
+/*start of 4*/
+
+.containerhovereffect4{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fadehovereffect4{
+    margin-right: 10%;
+}
+
+.containerhovereffect4 .box4{
+    position: relative;
+    width: 450px;
+    height: 650px;
+    background: url(../img/advertising/ad4.png) no-repeat;
+    background-size: cover;
+    font-family:'Kreon', serif;
+    color: #F2EFEC;
+    font-size: 15pt;
+    text-align: center;
+}
+
+.containerhovereffect4 .box4 h1{
+    width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.containerhovereffect4 .box4 .overlay4{
+    position: absolute;
+    background: #B78CB0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .7s ease-in;
+}
+
+.containerhovereffect4 .box4 .overlay4 p{
+    text-align: center;
+    margin: 20px 30px;
+    font-size: 15pt;
+    width: 100%;
+}
+
+.containerhovereffect4 .one .overlay4{
+    height: 0%;
+    bottom: 0;
+}
+
+.containerhovereffect4 .one:hover .overlay4{
+    height: 100%;
+    top: 0;
+}
+
+/*end of 4*/
+
+.containerhovereffect .two .overlay{
+    height: 100%;
+    opacity: 0;
+}
+
+.containerhovereffect .two:hover .overlay{
+    opacity: .75;
+}
+
+#advertisingtext h3{
+    text-align: center;
+    margin-top: 1%;
+    padding-top: 5%;
+    font-family: 'Kreon', serif;
+    font-size: 20pt;
+    color: #244244;
+    margin-bottom: 3%;
+}
+
+/*box1: mighty kiwi*/
+
+.myworkoverlay{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.box1 p{
+    text-align: center;
+    color: #F2EFEC;
+    font-size: 10pt;
+    margin-right: 2%
+}
+
+.containerhovereffect .box1{
+    position: relative;
+    width: 450px;
+    height: 650px;
+    background: url(../img/cover/mkcover.png) no-repeat;
+    background-size: cover;
+    font-family:'Kreon', serif;
+    color: #F2EFEC;
+    font-size: 10pt;
+    margin-right: 2%;
+}
+
+/*box2: window*/
+
+.containerhovereffect .box2{
+    position: relative;
+    width: 450px;
+    height: 650px;
+    background: url(../img/cover/windowcover.png) no-repeat;
+    background-size: cover;
+    font-family:'Kreon', serif;
+    color: #F2EFEC;
+    font-size: 15pt;
+    margin-right: 2%;
+}
+
+/*box3: architecture*/
+
+.containerhovereffect .box3{
+    position: relative;
+    width: 450px;
+    height: 650px;
+    background: url(../img/cover/unnamed-1.png) no-repeat;
+    background-size: cover;
+    font-family:'Kreon', serif;
+    color: #F2EFEC;
+    font-size: 15pt;
+}
+
+/*box4: dichotomy*/
+
+.containerhovereffect .box4{
+    position: relative;
+    width: 450px;
+    height: 650px;
+    background: url(../img/cover/dichotomycover.png) no-repeat;
+    background-size: cover;
+    font-family:'Kreon', serif;
+    color: #F2EFEC;
+    font-size: 15pt;
+    margin-right: 2%;
+}
+
+/*box5: diamonds*/
+
+.containerhovereffect .box5{
+    position: relative;
+    width: 450px;
+    height: 650px;
+    background: url(../img/cover/diamondsover.png) no-repeat;
+    background-size: cover;
+    font-family:'Kreon', serif;
+    color: #F2EFEC;
+    font-size: 15pt;
+    margin-right: 2%;
+}
+
+/*box6: zine*/
+
+.containerhovereffect .box6{
+    position: relative;
+    width: 450px;
+    height: 650px;
+    background: url(../img/cover/zinecover.png) no-repeat;
+    background-size: cover;
+    font-family:'Kreon', serif;
+    color: #F2EFEC;
+    font-size: 15pt;
+}
+
+/*end of fade hover effect*/
+
+
+#workpics{
+    text-align: center;
+}
+
+#mightykiwi{
+    background-color: #B78CB0;
+}
+
+.whitetoviolet:hover{
+    animation-name: whitetoviolet;
+    animation-duration: 2s;
+    animation-iteration-count: 1; 
+    text-align: center;
+    animation-fill-mode: forwards;
+}
+
+.whitetoviolet{
+    padding: 10%;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.violettowhite:hover{
+    animation-name: violettowhite;
+    animation-duration: 2s;
+    animation-iteration-count: 1; 
+    text-align: center;
+    animation-fill-mode: forwards;
+}
+
+.violettowhite{
+    padding: 10%;
+    background-color: #B78CB0;
+}
+
+
+.box a{
+    font-family:'Kreon', serif;
+    color: #F2EFEC;
+    font-size: 10pt;
+    text-align: center;
+    margin-right: 13%;
+}
+
+a p:hover{
+    text-decoration: underline;
+}  
+
+/*end of my work page*/
+
+/*portfolio page*/
+
+.label {
+    grid-column: 6 / span 3; 
+}
+
+.bodytext {
+    grid-column: 3 / span 4;
+}
+
+.artwork{
+    grid-column: 3 / span 4;
+}
+
+.label h3{
+    font-family: 'Kreon', serif;
+    font-size: 18pt;
+    color: #244244;
+    text-align: center; 
+    margin-top: 2px;
+}
+
+.label{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.bodytextlayout p{
+    text-align: center;
+    font-family: 'Kreon', serif;
+    font-size: 15px;
+    color: #B78CB0;
+    text-align: left;
+}
+
+.bodytextlayout{
+    width: 30%;
+    text-align: left;
+}
+
+.mklayout{
+    margin-left: 33%; 
+    margin-top: 2%;
+}
+
+.bodytextlayoutalt p{
+    text-align: center;
+    font-family: 'Kreon', serif;
+    font-size: 15px;
+    color: #B78CB0;
+    text-align: left;
+}
+
+.bodytextlayoutalt{
+    width: 30%;
+    text-align: right;
+}
+
+.mklayoutalt{
+    margin-left: 50%; 
+}
+
+#mkflexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 5%;
+}
+
+.mklayoutnews{
+    margin-right: 18%;
+}
+
+.mklayoutnancy{
+    margin-left: 33%;
+    margin-top: 15%;
+}
+
+.bodytextlayoutnancy{
+    width: 80%;
+    text-align: right;
+}
+
+.bodytextlayoutnancy p{
+    text-align: center;
+    font-family: 'Kreon', serif;
+    font-size: 15px;
+    color: #B78CB0;
+    text-align: left;
+}
+
+.bodytextlayoutaltnews{
+    width: 60%;
+    text-align: left;
+}
+
+.bodytextlayoutaltnews p{
+    text-align: center;
+    font-family: 'Kreon', serif;
+    font-size: 15px;
+    color: #B78CB0;
+    text-align: left;
+}
+
+.mklayoutwin{
+    margin-left: 33%;
+}
+
+.mklayoutig{
+    margin-right: 31%;
+    margin-top: 15%;
+}
+
+.bodytextlayoutaltig{
+    width: 80%;
+    text-align: right;
+}
+
+.bodytextlayoutaltig p{
+    text-align: center;
+    font-family: 'Kreon', serif;
+    font-size: 15px;
+    color: #B78CB0;
+    text-align: left;
+}
+
+.bodytextlayoutwin{
+    width: 70%;
+    text-align: left;
+}
+
+.bodytextlayoutwin p{
+    text-align: center;
+    font-family: 'Kreon', serif;
+    font-size: 15px;
+    color: #B78CB0;
+    text-align: left;
+}
+
+.labelalt H3{
+    font-family: 'Kreon', serif;
+    font-size: 18pt;
+    color: #244244;
+    text-align: center; 
+}
+
+.labelalt{
+    text-align: center;
+    margin-left: 5%;
+    padding: 1%;
+}
+
+#windowflexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-left: 1%;
+    padding: 3%;
+    height: 30%;
+}
+
+#windowtext p{
+    font-family: 'Kreon', serif;
+    font-size: 13pt;
+    color: #F2EFEC;
+    text-align: center; 
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+#windowcover img{
+    margin-left: 25%;
+}
+
+#windowimagesflexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-left: 10%;
+}
+
+#archfull {
+    text-align: center;
+}
+
+#archtext{
+    text-align: center;
+    margin: 5%;
+}
+
+#archtext p{
+    text-align: center;
+    font-family: 'Kreon', serif;
+    font-size: 15px;
+    color: #B78CB0;
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+}
+
+#archimagesflexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.dichotomy h3{
+    font-family: 'Kreon', serif;
+    font-size: 18pt;
+    color: #244244;
+    text-align: center;  
+}
+
+#dichotomytext p{
+    font-family: 'Kreon', serif;
+    font-size: 13pt;
+    color: #F2EFEC;
+    text-align: center; 
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 25%;
+}
+
+#diamonds{
+    text-align: center;
+}
+
+#diamonds img{
+    margin-top: 10%;
+}
+
+#diamondstext {
+    text-align: center;
+    margin: 5%;
+}
+
+#diamondstext p{
+    text-align: center;
+    font-family: 'Kreon', serif;
+    font-size: 13pt;
+    color: #B78CB0;
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+}
+
+.diamondslayout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.diamondslayout p{
+    font-family: 'Kreon', serif;
+    font-size: 13pt;
+    color: #B78CB0;
+    text-align: center; 
+    width: 30%;
+    margin-top: 10%;
+    margin-right: 23%;
+    margin-left: 5%;
+}
+
+.diamondslayout img{
+    margin-left: 22%;
+}
+
+.diamondslayoutalt{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.diamondslayoutalt img{
+    margin-right: 25%;
+}
+
+.diamondslayoutalt p{
+    font-family: 'Kreon', serif;
+    font-size: 13pt;
+    color: #B78CB0;
+    text-align: center; 
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 18%;
+}
+
+#comicimagesflexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 23%;
+}
+
+/*end of portfolio page*/
+
+/*game page*/
+
+#Gametitle {
+    text-align: center;
+    padding: 4%;
+    color: #B78CB0;
+    font-family: 'Kreon', serif;
+    font-size: 18pt;
+}
+
+#Gametitle h3{
+    color: #B78CB0;
+    font-family: 'Kreon', serif;
+    font-size: 18pt;
+    text-align: center;
+    margin-left: 2%;
+}
+
+#hiddengem{
+    padding-left: 5%;
+    padding-top: 30%;
+    padding-right: 20%;
+    padding-bottom: 10%;
+}
+  
+#hiddengem p{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    color: #F2EFEC;
+    font-family: 'Kreon', serif;
+    font-size: 8pt;
+    float: left;
+}
+  
+#hiddengem p:hover{
+    color: #244244;
+}
+
+#gamegame h3{
+    height: 100%;  
+    margin-left: 45.5%;
+    color: #244244;
+}
+
+/*contact page*/
+
+#contacttitle h3{
+    font-family: 'Kreon', serif;
+    font-size: 18pt;
+    color: #244244; 
+    margin-left: 2.25%;
+    margin-top: 3.75%;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #244244; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    font-family: 'Kreon', serif;
+}
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #B78CB0;
+    color: #F2EFEC;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Kreon', serif;
+    font-size: 15pt;
+    margin-bottom: 3.5%;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #B78CB0;
+    font-family: 'Kreon', serif;
+    font-size: 15pt;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #F2EFEC;
+    padding: 50px;
+    font-family: 'Kreon', serif;
+    font-size: 15pt;
+  }
+
+  .container label{
+    font-family: 'Kreon', serif;
+    color: #244244;
+  }

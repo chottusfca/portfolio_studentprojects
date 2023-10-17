@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'Abel';
+    src:url("fonts/abel/abel-regular.ttf");
+}  
+
+body {
+    background-color: #f5f5f5;
+    font-family:'Abel';
+    margin: 30px 40px 40px 40px;
+}
+
+ h1{
+    font-size: 75px;
+    color:#1985A1;
+ }
+ h2{
+    font-size: 50px;
+ }
+h3{
+    font-size: 35px;
+}
+h4 {
+    font-size: 30px;
+}
+h5 {
+    font-size: 25px;
+}
+h6 {
+    font-size: 18px;
+}
+p {
+    font-size: 18px;
+    color:#1985A1;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Abel';
+}
+
+nav {
+    position: fixed;
+    left: 70%;
+    width:30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2px 10px 2px 10px;
+    
+}
+
+main {
+    margin-top: 30px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+    grid-auto-flow: dense;
+    align-content: center;
+    text-align: center;
+    padding: 30px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 10px 2px 10px;
+    margin-top: 100px;
+}
+
+a {
+    color:#000000;
+    text-decoration: none;
+    margin: 0 32px 0 32px;
+}
+
+a:hover,a.selected {
+    color: #1985A1;
+}
+
+input, textarea {
+    width: 100%;
+    background-color:#f5f5f5;
+    border: 2px solid #1985A1;
+    font-size: 20px;
+    padding: 8px 16px 8px 16px;
+    font-family: 'Abel';
+}
+label {
+    font-size: 30px;
+    display: block;
+    margin: 16px 8px 16px 8px;
+}
+textarea {
+    height: 320px;
+}
+button {
+    background-color: #1985A1;
+    border: none;
+    font-size: 20px;
+    padding: 8px 16px 8px 16px;
+}
+button:hover {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+input:focus, textarea:focus {
+    border: 2px solid #1985A1;
+}
+.contact{
+    grid-column: 4 / span 6;
+}
+.form {
+    grid-column: 3 / span 8;
+}
+
+
+
+.byline {
+    grid-column: 2 / span 4;
+}
+.indeximg {
+    grid-column: 8 / span 4;
+}
+
+
+
+
+.about_img1 {
+    grid-column: 2 / span 4;
+}
+
+.about1 {
+    grid-column: 8 / span 4;
+}
+
+.about2{
+    grid-column: 2 / span 4;
+}
+.about_img2 {
+    grid-column: 8 / span 4;
+    justify-content: center;
+}
+
+
+
+.design_work {
+    grid-column: 4 / span 6;
+}
+.triptych, .psa_video, .psa_poster {
+    grid-column: 1 / span 5;
+}
+.arch_comp, .icons, .book {
+    grid-column: 8 / span 5;
+}
+
+
+
+
+
+.arch_work {
+    grid-column: 4 / span 6;
+}
+.adu, .ysa {
+    grid-column: 1 / span 5;
+}
+.housing, .guam {
+    grid-column: 8 / span 5;
+}
+.museum {
+    grid-column: 4 / span 6;
+}
+
+
+
+.project_title {
+    grid-column: 3 / span 8;
+}
+.triptych_img {
+    grid-column: 4 / span 6;
+}
+.arch_comp_img {
+    grid-column: 4 / span 6;
+}
+.paragraph {
+    grid-column: 3 / span 8;
+}
+
+
+.psa_vid {
+    grid-column: 4 / span 6;
+}
+
+
+.poster_img {
+    grid-column: 5 / span 4;
+}
+.poster_text {
+    grid-column: 4 / span 6;
+}
+
+
+.book_img {
+    grid-column: 2 / span 4;
+}
+.description, .book_img3, .book_img5, .book_img7, .book_img9, .book_img11 {
+    grid-column: 8 / span 4;
+}
+.book_img2, .book_img4, .book_img6, .book_img8, .book_img10 {
+    grid-column: 2 / span 4;
+}
+
+
+.adu1, .adu2 {
+    grid-column: 2 / span 4;
+}
+.adutext, .adu3 {
+    grid-column: 8 / span 4;
+}
+
+
+.senior1, .senior3, .senior5 {
+    grid-column: 2 / span 4;
+}
+.seniortext, .senior4, .senior6 {
+    grid-column: 8 / span 4;
+}
+
+.museum1, .museum2 {
+    grid-column: 2 / span 4;
+}
+.museumtext, .museum3 {
+    grid-column: 8 / span 4;
+}
+
+
+.ysa1, .ysa2, .ysa4, .ysa6, .ysa8, .ysa10 {
+    grid-column: 2 / span 4;
+}
+.ysatext, .ysa3, .ysa5, .ysa7, .ysa9, .ysa11 {
+    grid-column: 8 / span 4;
+}
